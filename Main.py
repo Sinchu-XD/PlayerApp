@@ -7,10 +7,10 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.image import AsyncImage
 from kivy.clock import Clock
 from kivy.storage.jsonstore import JsonStore
-from player import play_song, update_seekbar
-from playlist import add_to_playlist, play_next_song_in_playlist, play_previous_song_in_playlist
-from share import share_song_or_thumbnail
-from utils.youtube_search import search_youtube
+from Player import play_song, update_seekbar
+from PlayList import add_to_playlist, play_next_song_in_playlist, play_previous_song_in_playlist
+from Share import share_song_or_thumbnail
+from Utils.Youtube_Search import search_youtube
 
 class MusicPlayerApp(App):
     def build(self):
