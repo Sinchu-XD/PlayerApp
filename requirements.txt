@@ -1,0 +1,4 @@
+kivy==2.1.0
+yt-dlp==2025.3.31
+jnius==1.3.0
+YouTubeMusic==2.1.0
